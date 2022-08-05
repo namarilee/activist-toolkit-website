@@ -63,19 +63,23 @@ li a {
  
 #planet-title {
     margin-bottom: 0.5em;
-    font-size: 3.4rem;
+    font-size: 4rem;
     font-family: "Gilmer Bold";
 
 }
+
+@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
+
 #home-img {
     width: 45%;
     height: 45%;
-    margin-top: 5em;
+    margin-top: 4em;
     margin-right: 4em;
     margin-left: -1em;
+    animation: bounce 2s infinite alternate;
 }
  .left-side {
-   color: rgb(56, 147, 106);
+   color: rgb(48, 124, 90);
    margin-top: 1em;
    margin-left: 10em;
    margin-right: 2em;
