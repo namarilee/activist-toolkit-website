@@ -87,6 +87,25 @@ li a {
 
  }
 
+ #learn-button {
+    font-family: "Gilmer Bold";
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #0997e300;
+    background-color: rgb(48, 124, 90);
+    margin-top: 2em;
+    margin-bottom: 25px;
+    padding: 11px 18px 8px 18px;
+    border-radius: 7px;
+    display: inline-block;
+    transition: background-color 0.15s ease-in;
+ }
+
+ #learn-button:hover {
+    background-color: #ffffff;
+    color:  rgb(48, 124, 90);
+  }
  
  
  /* STYLE IMAGES */
