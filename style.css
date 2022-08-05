@@ -5,9 +5,9 @@
  }
   
  body {
-  background-color: rgb(253, 249, 211); 
-  align-items: center;
-  justify-content: center
+    background-color: #FCF8E8; 
+    align-items: center;
+    justify-content: center
 
  }
  
@@ -20,11 +20,12 @@
  /* END OF GENERAL STYLES */
 
  /* NAV BAR STYLES*/
+
  ul {
     list-style-type: none;
     overflow: hidden;
     padding: 1.5em;
-    background-color: #dddddd;
+    background-color: #FCF8E8; 
     text-align: right;
 }
 
@@ -37,6 +38,7 @@ li a {
     padding: 1em;
     text-decoration: none;
     font-size: 1.3em;
+    color: black;
 }
 
 /* END OF NAV BAR STYLES */
