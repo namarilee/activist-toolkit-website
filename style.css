@@ -1,0 +1,70 @@
+/* GENERAL STYLES */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+  
+ body {
+  background-color: rgb(253, 249, 211); 
+  align-items: center;
+  justify-content: center
+
+ }
+ 
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+ /* END OF GENERAL STYLES */
+
+ /* NAV BAR STYLES*/
+ ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 1.5em;
+    background-color: #dddddd;
+    text-align: right;
+}
+
+li {
+    display: inline;
+
+}
+
+li a {
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+/* END OF NAV BAR STYLES */
+
+/* HOME SECTION */
+ 
+#planet-title {
+    margin-bottom: 1em;
+    font-size: 3.4rem;
+}
+#home-img {
+    width: 45%;
+    height: 45%;
+    margin-top: 7em;
+    margin-right: 4em;
+}
+ .left-side {
+   color: navy;
+   margin-top: 5em;
+   margin-left: 8em;
+   margin-right: 4em;
+ }
+
+ 
+ 
+ /* STYLE IMAGES */
+ 
+ 
+ /* STYLE BUTTONS */
+ 
+ /* ADD MORE! */
