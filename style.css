@@ -3,7 +3,21 @@
     margin: 0px;
     padding: 0px;
  }
+
+html {
+    scroll-behavior:smooth
+}
   
+@font-face {
+    font-family: "Gilmer Bold";
+    src: url("Fonts/Gilmer-Bold.ttf");
+}
+  
+@font-face {
+    font-family: "Gilmer Regular";
+    src: url("Fonts/Gilmer-Regular.otf");
+}
+
  body {
     background-color: #FCF8E8; 
     align-items: center;
@@ -39,6 +53,8 @@ li a {
     text-decoration: none;
     font-size: 1.3em;
     color: black;
+    font-family: "Gilmer Bold";
+
 }
 
 /* END OF NAV BAR STYLES */
@@ -46,20 +62,25 @@ li a {
 /* HOME SECTION */
  
 #planet-title {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     font-size: 3.4rem;
+    font-family: "Gilmer Bold";
+
 }
 #home-img {
     width: 45%;
     height: 45%;
     margin-top: 5em;
     margin-right: 4em;
+    margin-left: -1em;
 }
  .left-side {
-   color: navy;
+   color: rgb(56, 147, 106);
    margin-top: 1em;
-   margin-left: 8em;
-   margin-right: 4em;
+   margin-left: 10em;
+   margin-right: 2em;
+   font-family: "Gilmer Regular";
+
  }
 
  
