@@ -108,9 +108,48 @@ li a {
   }
  
  
- /* STYLE IMAGES */
+ /* END OF HOME SECTION */
  
+ /* LEARN SECTION */
+
+ h2 {
+    /*margin-left: 5em;
+    margin-top: 5em;
+    padding-top: 3em;*/
+    color: rgb(48, 124, 90);
+    font-family: "Gilmer Bold";
+    font-size: 2rem;
+    margin-bottom: 1em;
+ }
  
+.paragraph {
+    /*margin-left: 8.5em;
+    margin-top: 2em;
+    margin-right: 8.5em;*/
+    color: rgb(48, 124, 90);
+    font-family: "Gilmer Regular";
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 8em;
+    margin-right: 8em;
+    margin-left: 8em;
+    background-color: rgb(255, 255, 255);
+    transition: box-shadow .3s ease;
+    justify-content: top;
+    box-shadow: 0 2px 4px 0 rgba(190, 112, 112, 0.05), 0 3px 10px 0 rgba(190, 112, 112, 0.05);
+}
+
+/*@media only screen and (max-width: 600px) {
+    .text-block {
+      flex-direction: column;
+    }
+  }*/
  /* STYLE BUTTONS */
  
  /* ADD MORE! */
