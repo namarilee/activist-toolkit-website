@@ -113,9 +113,6 @@ li a {
  /* LEARN SECTION */
 
  h2 {
-    /*margin-left: 5em;
-    margin-top: 5em;
-    padding-top: 3em;*/
     color: rgb(48, 124, 90);
     font-family: "Gilmer Bold";
     font-size: 2rem;
@@ -123,9 +120,6 @@ li a {
  }
  
 .paragraph {
-    /*margin-left: 8.5em;
-    margin-top: 2em;
-    margin-right: 8.5em;*/
     color: rgb(48, 124, 90);
     font-family: "Gilmer Regular";
 }
@@ -139,17 +133,43 @@ li a {
     margin-top: 8em;
     margin-right: 8em;
     margin-left: 8em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.849);
     transition: box-shadow .3s ease;
     justify-content: top;
     box-shadow: 0 2px 4px 0 rgba(190, 112, 112, 0.05), 0 3px 10px 0 rgba(190, 112, 112, 0.05);
 }
 
-/*@media only screen and (max-width: 600px) {
-    .text-block {
-      flex-direction: column;
-    }
-  }*/
+.text-block:hover{
+    box-shadow: 0px 0px 10px rgba(48, 124, 90, 0.25);
+  }
+
+.center-title {
+    color: rgb(48, 124, 90);
+    font-family: "Gilmer Bold";
+    font-size: 2rem;
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.fact-pic {
+    width: 273px;
+    height: 183px;
+    border-radius: 30px;
+    margin-right: 3em;
+}
+
+.fact-pic:hover{
+    box-shadow: 0px 0px 10px rgba(48, 124, 90, 0.25);
+  }
+
+.img-label {
+    color: rgb(48, 124, 90);
+    font-family: "Gilmer Regular";
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 3em;
+}
  /* STYLE BUTTONS */
  
  /* ADD MORE! */
