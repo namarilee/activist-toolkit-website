@@ -166,7 +166,7 @@ li a {
     margin-right: 3em;
 }
 
-.fact-pic:hover{
+.fact-pic:hover {
     box-shadow: 0px 0px 20px rgba(238, 255, 247, 0.89);
     transform: rotate(5deg) scale(1.01);
     transition: 0.3s ease;
@@ -187,11 +187,55 @@ li a {
     margin-top: 5em;
     margin-right: 18em;
     margin-left: 18em;
+    padding-bottom: 2.5em;
 }
 
 #learn {
     padding-top: 1em;
 }
- /* STYLE BUTTONS */
+ /* TAKE ACTION SECTION */
+
+ .take-action {
+    width: 900px;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 5em;
+  }
+
+ .subtitle {
+    font-size: 2rem;
+    font-family: "Gilmer Bold";
+    color: rgba(86, 181, 138, 0.782);
+
+ }
  
+ .action-title {
+    font-size: 2.5rem;
+    font-family: "Gilmer Bold";
+    color: rgb(48, 124, 90);
+    margin-right: 1em;
+ }
+ #action-img {
+    height: 90%;
+    width: 90%;
+    margin-left: -2em;
+ }
+
+ .right-side {
+   color: rgb(48, 124, 90);
+   margin-top: 1em;
+   margin-left: 10em;
+   margin-right: 2em;
+   font-family: "Gilmer Regular";
+ }
+
+ .action-step {
+    font-family: "Gilmer Bold";
+    width: 400%;
+    font-size: 1.5rem;
+
+ }
  /* ADD MORE! */
