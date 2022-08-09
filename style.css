@@ -303,7 +303,6 @@ li a {
 
 .source-title {
     margin-top: 4em;
-    margin-left: 4em;
 }
 
  
@@ -311,11 +310,20 @@ li a {
 .source-links {
     display: contents;
     font-family: "Gilmer Regular";
-    color: rgb(48, 124, 90);
+    text-color: rgb(48, 124, 90);
     line-height: 1.8;
-    margin-left: 4em;
+    
 
 
+}
+
+#back-to-home {
+    color: rgb(48, 124, 90);
+    font-family: "Gilmer Regular";
+    text-align: center;
+    display: block;
+    padding-bottom: 1em;
+    padding-top: 5em;
 }
 
 .sources-a {
