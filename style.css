@@ -293,13 +293,31 @@ li a {
     margin-left: 1em;
   }
 
-  #sources-link {
-    font-family: "Gilmer Regular";
+#sources-link {
     color: rgb(48, 124, 90);
+    font-family: "Gilmer Regular";
     text-align: center;
     display: block;
-    text-decoration-style: solid;
+    padding-bottom: 1em;
+}
 
-    /*text-underline-position: under;*/
+.source-title {
+    margin-top: 4em;
+    margin-left: 4em;
+}
 
-  }
+ 
+
+.source-links {
+    display: contents;
+    font-family: "Gilmer Regular";
+    color: rgb(48, 124, 90);
+    line-height: 1.8;
+    margin-left: 4em;
+
+
+}
+
+.sources-a {
+    text-decoration: solid;
+}
