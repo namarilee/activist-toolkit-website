@@ -310,7 +310,7 @@ li a {
 .source-links {
     display: contents;
     font-family: "Gilmer Regular";
-    color: rgb(48, 124, 90);
+    text-color: rgb(48, 124, 90);
     line-height: 1.8;
     
 
